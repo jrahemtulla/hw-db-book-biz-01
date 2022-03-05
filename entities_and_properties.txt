@@ -1,0 +1,71 @@
+
+/* 
+Entity 1: Books
+BookID
+BookName
+Author name
+AuthorID
+Secondary Author ID:
+Genre
+Publisher ID
+Editor ID
+
+Entity 2: Authors
+Author Name  
+AuthorID
+
+Entity 3: Orders 
+OrderID
+CustomerID
+
+Entity 4: Publishers
+PublisherName 
+PublisherID
+
+Entity 5: Editors
+Editor Name
+Editor ID
+
+Entity6: Royalties
+BookID
+Royalty
+
+Entity 7: OrderDetails
+OrderID
+BookID
+
+Entity 8:Customers
+CustomerID
+CustomerName
+
+*/
+
+
+
+/*
+List of the unique identifiers 
+
+CustomerID
+AuthorID
+PublisherID
+OrderID
+BookID
+EditorID
+
+*/
+
+/*
+Create a list of the table relationships Ð the cardinality between entities
+Publishers: Books: 1:N 
+Authors: Books: N:N
+Books: Authors: N:N
+Editors: Books: 1:N 
+Customer: Orders: 1:N
+Orders:Books N:N
+
+*/
+
+
+ 
+ 
+
